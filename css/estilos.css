@@ -1,0 +1,513 @@
+html{
+    height: 100%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url(../multimedia/imagenes/fondo-infantil-coloridas-nubes-planas_360032-1574.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* INDEX------------------------------- */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
+    position: sticky ;
+    min-height: 100%;
+    min-width: 100%;
+    box-sizing: content-box;
+    z-index: 2000;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.titulo{
+
+    font-size: 50px;
+    font-family: "pacifico";
+    color: transparent;
+    background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+    -webkit-background-clip: text;
+    }
+
+    .menuli{
+        margin: 15px;
+        font-weight: bold;
+        font-size: 28px;
+        list-style-type: none;
+    }
+    
+    .linkmenu{
+        text-decoration: none;
+        color: transparent;
+        background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+        -webkit-background-clip: text;
+        font-family: "pacifico";
+    }
+
+
+.main-inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-incio{
+    position: relative;
+    top: 4rem;
+    border-radius: 25px;
+    width: 500px;
+    left: 4rem;
+}
+
+.section-inicio h2{
+    text-align: center;
+}
+.section-inicio p{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.aside-inicio{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-aside{
+    width: 70vh;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aside-inicio h2{
+    text-align: center;
+}
+
+footer{
+    margin-top: auto;
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
+    margin-top: auto;
+    max-height: 100%;
+}
+
+footer p{
+    color: #405457;
+}
+
+.whatsapp-flotante{
+    position: fixed;
+    z-index: 1000;
+    width: 50px;
+    top:93%;
+    left: 96%;
+    
+}
+
+.centrar-footer{
+text-align: center;
+}
+
+/* PRODUCTOS------------------------------- */
+
+.imagenes-productos-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.contenedor-powpatrol{
+    width: 400px;
+    margin: 55px;
+    position: relative;
+    right: 50px;
+}
+
+.contenedor-powpatrol figure{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-powpatrol figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.capa-texto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    text-align: center;
+    color: white;
+}
+
+.capa-texto h3{
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 26px;
+}
+
+.capa-texto ol{
+    display: block;
+    margin: 15px;
+}
+
+.contenedor-powpatrol figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-powpatrol figure:hover .capa-texto{
+    opacity: 1;
+}
+
+
+/* CONTENEDOR ANIAMLITOS NORDICOSFEM_________________ */
+
+.contenedor-animalitosnordicosfem{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.contenedor-animalitosnordicosfem figure{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-animalitosnordicosfem figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-animalitosnordicosfem figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-animalitosnordicosfem figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* CONTENEDOR CONSTRUCCION____________________________ */
+
+.contenedor-construccion{
+    width:500px;
+    margin-top:50px;
+}
+
+.contenedor-construccion figure{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-construccion figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-construccion figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-construccion figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* CONTENEDOR ANIMALITOS DE LA GRANJA____________________________________ */
+
+.contenedor-granjazenon{
+    width:500px;
+    margin-top:50px;
+}
+
+.contenedor-granjazenon figure{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-granjazenon figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-granjazenon figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-granjazenon figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* CONTENEDOR MINIE______________________________________ */
+.contenedor-minnie{
+    width:500px;
+    margin-top:50px;
+    margin-left: 25px;
+}
+
+.contenedor-minnie figure{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-minnie figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-minnie figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-minnie figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* CONTENEDOR STICH_______________________________________ */
+
+.contenedor-stich{
+    width:500px;
+    margin-top:50px;
+}
+
+.contenedor-stich figure{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-stich figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-stich figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-stich figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* CONTENEDOR ANIMALITOS NORDICOS_______________________________ */
+
+.contenedor-animalitosnordicos{
+    width:500px;
+    margin-top:110px;
+    margin-bottom: 50px;
+}
+
+.contenedor-animalitosnordicos figure{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor-animalitosnordicos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-animalitosnordicos figure:hover img{
+    transform: scale(1.3);
+    transition: all 500ms ease-out;
+}
+
+.contenedor-animalitosnordicos figure:hover .capa-texto{
+    opacity: 1;
+}
+
+/* SORTEOS------------------------ */
+.menu-sorteo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.first-day{
+    grid-column-start: 6;
+    border: solid 1px black;
+}
+
+.day-name{
+    font-weight: bold;
+
+}
+
+.imagensorteo{
+    margin: 2rem;
+    width: 500px;
+    height: 500px;
+}
+
+.calendario{
+    text-align: center;
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
+    border: groove 1rem #11827A;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA);
+    font-weight: bold;
+
+}
+
+.final-day{
+    background-color:#EEB2BB ;
+    border: solid 1px black;
+}
+
+.borde-calendario{
+    border: solid 1px black;
+}
+.calendario li {
+    padding: 1rem;
+}
+
+/* CONTACTO----------------------------- */
+
+form{
+    width: 50%;
+    border:1rem groove #11827A;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    left: 25%;
+    top: 10%;
+    background-image: radial-gradient(#11827A,30%,#B3DDE4);
+}
+
+label{
+    font-size: 18px;
+    display: block;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+textarea{
+    resize:vertical;
+    max-height:300px;
+    min-height: 100px;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid blue;
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background-color: #1668c4;
+    color:black;
+    border: none;
+
+}
+
+input[type="submit"]:hover{
+    background:#4a88f4 ;
+    cursor: pointer;
+}
+
+/* MediaQueris */
+
+@media screen and (max-width: 991px ) {
+    .whatsapp-flotante{
+        position: fixed;
+        z-index: 1000;
+        width: 50px;
+        top:93%;
+        left: 90%;
+        
+    }
+}
+
+@media  screen and (max-width:630px) {
+    body{
+        display:grid;
+    }
+    .whatsapp-flotante{
+        display: none;
+    }
+}
