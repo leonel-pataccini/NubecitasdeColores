@@ -1,0 +1,107 @@
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
+    position: sticky ;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    z-index: 2000;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.titulo{
+
+    font-size: 50px;
+    font-family: "pacifico";
+    color: transparent;
+    background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+    -webkit-background-clip: text;
+    }
+
+    .menuli{
+        padding: 15px;
+        font-weight: bold;
+        font-size: 26px;
+        list-style-type: none;
+    }
+    
+    .linkmenu{
+        text-decoration: none;
+        color: transparent;
+        background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+        -webkit-background-clip: text;
+        font-family: "pacifico";
+    }
+
+
+
+.main-inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    h2{
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+.aside-inicio{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 30px;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.centrar-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-aside{
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 30px 25px;
+}
+
+footer{
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
+    margin-top: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    p{
+        color: #405457;
+    }
+}
+
+.whatsapp-flotante{
+    position: fixed;
+    z-index: 1000;
+    width: 50px;
+    top:93%;
+    left: 96%;
+}
+

@@ -19,7 +19,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Libre Baskerville', serif;
 }
 
 /* INDEX------------------------------- */
@@ -107,12 +106,10 @@ body{
     align-items: center;
 }
 
-.tamanio-foto{
-    height: 650px;
-}
+
 .imagen-aside{
     max-width: 600px;
-    border-radius: 50px;
+
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0px 30px 25px;
@@ -123,7 +120,6 @@ body{
 }
 
 footer{
-    background-color: ;
     background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
     margin-top: auto;
     height: 100%;
@@ -131,7 +127,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    text-align: center;
 }
 
 footer p{
@@ -144,12 +140,9 @@ footer p{
     width: 50px;
     top:93%;
     left: 96%;
-    
 }
 
-.centrar-footer{
-text-align: center;
-}
+
 
 /* PRODUCTOS------------------------------- */
 
@@ -408,58 +401,6 @@ font-size: 26px;
 }
 
 /* SORTEOS------------------------ */
-.menu-sorteo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-}
-ol {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    
-}
-
-.first-day{
-    grid-column-start: 6;
-    border: solid 1px black;
-}
-
-.day-name{
-    font-weight: bold;
-
-}
-
-.imagensorteo{
-    margin: 2rem;
-    width: 500px;
-    height: 500px;
-}
-
-.calendario{
-    text-align: center;
-    width: 30%;
-    margin: 2rem;
-    padding: 2rem;
-    border: groove 1rem #11827A;
-    border-radius: 25px;
-    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA);
-    font-weight: bold;
-
-}
-
-.final-day{
-    background-color:#EEB2BB ;
-    border: solid 1px black;
-}
-
-.borde-calendario{
-    border: solid 1px black;
-}
-.calendario li {
-    padding: 1rem;
-}
 
 /* CONTACTO----------------------------- */
 
@@ -552,7 +493,6 @@ display: none;
 }
 
 .powpatrol{
-
     transition: all 500ms ease-out;
 }
 

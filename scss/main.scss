@@ -1,1 +1,30 @@
-@import "pseudoclases"
+@import "menusgenerales";
+@import "productos";
+@import "galeria";
+@import "precio";
+@import "contacto";
+@import "mediaqueries";
+html{
+    height: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    width: 100%;
+    background-image: url(../multimedia/imagenes/fondo-infantil-coloridas-nubes-planas_360032-1574.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+

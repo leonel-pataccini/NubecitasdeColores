@@ -1,3 +1,405 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #E9AAB2, #C8E1EF, #98D3AA, #ECC7AD, #C2C1D8);
+  position: sticky;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  z-index: 2000;
+  justify-content: space-between;
+  align-self: center;
+}
 
+.titulo {
+  font-size: 50px;
+  font-family: "pacifico";
+  color: transparent;
+  background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
+  -webkit-background-clip: text;
+}
+
+.menuli {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 26px;
+  list-style-type: none;
+}
+
+.linkmenu {
+  text-decoration: none;
+  color: transparent;
+  background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
+  -webkit-background-clip: text;
+  font-family: "pacifico";
+}
+
+.main-inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-inicio h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.main-inicio p {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.aside-inicio {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 30px;
+}
+.aside-inicio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-aside {
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 30px 25px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #E9AAB2, #C8E1EF, #98D3AA, #ECC7AD, #C2C1D8);
+  margin-top: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+footer p {
+  color: #405457;
+}
+
+.whatsapp-flotante {
+  position: fixed;
+  z-index: 1000;
+  width: 50px;
+  top: 93%;
+  left: 96%;
+}
+
+.imagenes-productos-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.contenedor-powpatrol {
+  max-width: 500px;
+  right: 50px;
+}
+.contenedor-powpatrol figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-powpatrol figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-powpatrol figure img:hover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+.capa-texto {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  text-align: center;
+  color: white;
+}
+.capa-texto h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+.capa-texto ol {
+  display: block;
+  margin: 15px;
+}
+.capa-texto:hover {
+  opacity: 1;
+}
+
+/* CONTENEDOR ANIMALITOS NORDICOS */
+.contenedor-animalitosnordicosfem {
+  max-width: 500px;
+}
+.contenedor-animalitosnordicosfem figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-animalitosnordicosfem figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-animalitosnordicosfem figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+/* Contenedor Construccion */
+.contenedor-construccion {
+  max-width: 500px;
+}
+.contenedor-construccion figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-construccion figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-construccion figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+/* Contenedor Animalitos de la granja */
+.contenedor-granjazenon {
+  max-width: 500px;
+  padding-top: 2%;
+}
+.contenedor-granjazenon figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-granjazenon figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-granjazenon figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+/* Contenedor Minnie */
+.contenedor-minnie {
+  max-width: 500px;
+  padding-top: 2%;
+}
+.contenedor-minnie figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-minnie figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-minnie figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+/* Contenedor Stich */
+.contenedor-stich {
+  max-width: 500px;
+  padding-top: 2%;
+}
+.contenedor-stich figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-stich figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-stich figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+/* Contenedor AninmalitosNordicos */
+.contenedor-animalitosnordicos {
+  max-width: 500px;
+  padding-top: 2%;
+}
+.contenedor-animalitosnordicos figure {
+  position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.contenedor-animalitosnordicos figure img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 500ms ease-out;
+}
+.contenedor-animalitosnordicos figure imghover {
+  transform: scale(1.3);
+  transition: all 500ms ease-out;
+}
+
+th {
+  font-size: 21px;
+}
+
+td {
+  font-size: 18px;
+}
+td p {
+  padding-top: 80px;
+}
+
+form {
+  width: 50%;
+  border: 1rem groove #11827A;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  left: 25%;
+  top: 10%;
+  background-image: radial-gradient(#11827A, 30%, #B3DDE4);
+}
+
+label {
+  font-size: 18px;
+  display: block;
+}
+
+input, textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
+
+input textarea:focus {
+  border: 1px solid blue;
+}
+
+input[type=submit] {
+  margin-bottom: 0;
+  background-color: #1668c4;
+  color: black;
+  border: none;
+}
+input[type=submit]:hover {
+  background: #4a88f4;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  th {
+    font-size: 18px;
+  }
+  td {
+    font-size: 16px;
+  }
+  td p {
+    padding-top: 0px;
+  }
+  .whatsapp-flotante {
+    display: none;
+  }
+  form {
+    width: 80%;
+    position: relative;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 494px) {
+  .titulo {
+    font-size: 30px;
+  }
+}
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+  background-image: url(../multimedia/imagenes/fondo-infantil-coloridas-nubes-planas_360032-1574.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=main.css.map */
