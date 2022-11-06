@@ -48,6 +48,8 @@
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
 }
 .main-inicio p {
   font-weight: bold;
@@ -64,6 +66,7 @@
 .aside-inicio h2 {
   text-align: center;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .centrar-imagen {
@@ -174,7 +177,7 @@ footer p {
   max-height: 100%;
   transition: all 500ms ease-out;
 }
-.contenedor-animalitosnordicosfem figure imghover {
+.contenedor-animalitosnordicosfem figure img:hover {
   transform: scale(1.3);
   transition: all 500ms ease-out;
 }
@@ -307,6 +310,7 @@ td {
 }
 td p {
   padding-top: 80px;
+  font-weight: bold;
 }
 
 form {
@@ -354,6 +358,11 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+/* Elementos ocultos en desktop */
+.whatsap-mobil {
+  display: none;
+}
+
 @media screen and (max-width: 720px) {
   th {
     font-size: 18px;
@@ -367,6 +376,9 @@ input[type=submit]:hover {
   .whatsapp-flotante {
     display: none;
   }
+  .whatsap-mobil {
+    display: inline-block;
+  }
   form {
     width: 80%;
     position: relative;
@@ -376,6 +388,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 494px) {
   .titulo {
     font-size: 30px;
+  }
+  th {
+    font-size: 16px;
   }
 }
 html {
