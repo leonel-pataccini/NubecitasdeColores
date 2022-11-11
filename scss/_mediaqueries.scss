@@ -29,11 +29,20 @@ display: none;
 
 }
 
-@media  screen and (max-width: 494px) {
+@media  screen and (max-width: 425px) {
     .titulo{
         font-size: 30px;
     }
     th{
-        font-size: 16px;
+        font-size: 20px;
         }
+        td{
+            font-size: 16px;
+        }
+   .precio-tabla{
+    padding-top: 20px;
+   }
+
+    
+        
 }

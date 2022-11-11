@@ -13,7 +13,7 @@
 
 .titulo {
   font-size: 50px;
-  font-family: "pacifico";
+  font-family: "Libre Baskerville", serif;
   color: transparent;
   background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
   -webkit-background-clip: text;
@@ -31,7 +31,7 @@
   color: transparent;
   background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
   -webkit-background-clip: text;
-  font-family: "pacifico";
+  font-family: "Libre Baskerville", serif;
 }
 
 .main-inicio {
@@ -47,25 +47,41 @@
 .main-inicio h2 {
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 30px;
   font-weight: bold;
   font-size: 40px;
+  padding-top: 30px;
+  font-style: italic;
 }
 .main-inicio p {
   font-weight: bold;
   font-size: 20px;
   font-style: italic;
 }
+.main-inicio main {
+  background-color: #ECCCCF;
+  margin-top: 30px;
+  border-radius: 15px;
+  border-top: ridge 1rem #A4D6BB;
+  border-left: ridge 1rem #EFDDB1;
+  border-right: ridge 1rem #E29DAB;
+  border-bottom: ridge 1rem #7EBDCA;
+}
 
 .aside-inicio {
   font-weight: bold;
   font-size: 20px;
   font-style: italic;
-  padding-top: 30px;
+  margin-top: 30px;
+  background-color: #CFF4FC;
+  border-radius: 15px;
+  border-top: ridge 1rem #E29DAB;
+  border-left: ridge 1rem #EFDDB1;
+  border-right: ridge 1rem #A4D6BB;
+  border-bottom: ridge 1rem #7EBDCA;
 }
 .aside-inicio h2 {
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 5px;
   font-weight: bold;
 }
 
@@ -113,13 +129,12 @@ footer p {
 }
 
 .contenedor-powpatrol {
-  max-width: 500px;
+  max-width: 600px;
   right: 50px;
 }
 .contenedor-powpatrol figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -131,7 +146,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-powpatrol figure img:hover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -143,17 +157,22 @@ footer p {
   background: rgba(11, 103, 123, 0.6);
   transition: all 500ms ease-out;
   opacity: 0;
-  text-align: center;
   color: white;
 }
 .capa-texto h3 {
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 26px;
+  font-size: 30px;
 }
 .capa-texto ol {
-  display: block;
+  display: inline-block;
   margin: 15px;
+}
+.capa-texto ul {
+  text-align: center;
+  position: relative;
+  right: 30px;
 }
 .capa-texto:hover {
   opacity: 1;
@@ -166,7 +185,6 @@ footer p {
 .contenedor-animalitosnordicosfem figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -178,7 +196,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-animalitosnordicosfem figure img:hover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -189,7 +206,6 @@ footer p {
 .contenedor-construccion figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -201,7 +217,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-construccion figure imghover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -213,7 +228,6 @@ footer p {
 .contenedor-granjazenon figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -225,7 +239,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-granjazenon figure imghover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -237,7 +250,6 @@ footer p {
 .contenedor-minnie figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -249,7 +261,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-minnie figure imghover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -261,7 +272,6 @@ footer p {
 .contenedor-stich figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -273,7 +283,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-stich figure imghover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -285,7 +294,6 @@ footer p {
 .contenedor-animalitosnordicos figure {
   position: relative;
   max-width: 500px;
-  max-height: 400px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px;
   cursor: pointer;
@@ -297,7 +305,6 @@ footer p {
   transition: all 500ms ease-out;
 }
 .contenedor-animalitosnordicos figure imghover {
-  transform: scale(1.3);
   transition: all 500ms ease-out;
 }
 
@@ -385,12 +392,18 @@ input[type=submit]:hover {
     left: 5%;
   }
 }
-@media screen and (max-width: 494px) {
+@media screen and (max-width: 425px) {
   .titulo {
     font-size: 30px;
   }
   th {
+    font-size: 20px;
+  }
+  td {
     font-size: 16px;
+  }
+  .precio-tabla {
+    padding-top: 20px;
   }
 }
 html {

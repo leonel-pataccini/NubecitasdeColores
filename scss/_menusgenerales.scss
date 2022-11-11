@@ -15,7 +15,7 @@
 .titulo{
 
     font-size: 50px;
-    font-family: "pacifico";
+    font-family: 'Libre Baskerville', serif;
     color: transparent;
     background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
     -webkit-background-clip: text;
@@ -33,7 +33,7 @@
         color: transparent;
         background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
         -webkit-background-clip: text;
-        font-family: "pacifico";
+        font-family: 'Libre Baskerville', serif;
     }
 
 
@@ -49,14 +49,25 @@
     h2{
         text-align: center;
         padding-bottom: 30px;
-        padding-top: 30px;
-        font-weight: bold;
+        font-weight: bold ;
         font-size: 40px;
+        padding-top: 30px;
+        font-style: italic;
     }
     p{
         font-weight: bold;
         font-size: 20px;
         font-style: italic;
+    }
+    main{
+        background-color: #ECCCCF;
+        margin-top: 30px;
+        border-radius: 15px;
+        border-top: ridge 1rem #A4D6BB;
+        border-left: ridge 1rem #EFDDB1;
+        border-right: ridge 1rem #E29DAB;
+        border-bottom: ridge 1rem #7EBDCA;
+        
     }
 }
 
@@ -64,11 +75,18 @@
     font-weight: bold;
     font-size: 20px;
     font-style: italic;
-    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #CFF4FC;
+    border-radius: 15px;
+    border-top: ridge 1rem  #E29DAB;
+    border-left: ridge 1rem #EFDDB1;
+    border-right: ridge 1rem #A4D6BB;
+    border-bottom: ridge 1rem #7EBDCA;
+    
 
     h2{
         text-align: center;
-        margin-bottom: 30px;
+        padding-bottom: 5px;
         font-weight: bold;
     }
 }
