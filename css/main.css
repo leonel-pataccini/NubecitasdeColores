@@ -166,7 +166,7 @@ footer p {
   font-size: 30px;
 }
 .capa-texto ol {
-  display: inline-block;
+  display: block;
   margin: 15px;
 }
 .capa-texto ul {
@@ -394,7 +394,7 @@ input[type=submit]:hover {
 }
 @media screen and (max-width: 425px) {
   .titulo {
-    font-size: 30px;
+    font-size: 35px;
   }
   th {
     font-size: 20px;
