@@ -54,6 +54,9 @@
         font-size: 40px;
         padding-top: 30px;
         font-style: italic;
+        color: transparent;
+        background-image: linear-gradient(to right,red,orange,rgb(214, 67, 202),rgb(76, 207, 230),red);
+        -webkit-background-clip: text;
     }
     p{
         font-weight: bold;

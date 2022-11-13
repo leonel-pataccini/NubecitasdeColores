@@ -2,8 +2,17 @@
 .whatsap-mobil{
     display:none;
 }
-
-@media screen and (max-width: 720px ) {
+.dropdown{
+    display: none;
+}
+@media screen and (max-width: 1024px ) {
+    .main-inicio{
+        h2{
+            background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),red,rgb(228, 115, 22),red,);
+        }
+    }
+}
+@media screen and (max-width: 768px ) {
     th{
         font-size: 18px;
         }
@@ -26,7 +35,37 @@ display: none;
         position: relative;
         left: 5%;
     }
+    
+    .capa-texto{
+        display: none;
+    }
 
+    .dropdown{
+        display: inline-block;
+        
+    }
+    .dropdown-menu{
+        width: 500px;
+        height: 545px;
+        text-align: center;
+        background: rgba(11, 103, 123, 0.6);
+        transition: all 300ms ease-out;
+        opacity: 1;
+    }
+    .dropdown-item{
+        color: white;
+        font-size: 20px;
+    }
+    .dropdown-toggle{
+        width: 500px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+    }
+    #dropdownMenuButton1{
+        color: blue;
+    }
 }
 
 @media  screen and (max-width: 425px) {
@@ -43,6 +82,4 @@ display: none;
     padding-top: 20px;
    }
 
-    
-        
 }
