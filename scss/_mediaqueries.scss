@@ -1,50 +1,83 @@
 /* Elementos ocultos en desktop */
-.whatsap-mobil{
-    display:none;
-}
-.dropdown{
+.whatsap-mobil {
     display: none;
 }
-@media screen and (max-width: 1024px ) {
-    .main-inicio{
-        h2{
-            background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),red,rgb(228, 115, 22),red,);
-        }
-    }
+
+.dropdown {
+    display: none;
 }
-@media screen and (max-width: 768px ) {
-    th{
-        font-size: 18px;
+
+@media screen and (max-width: 1024px) {
+    .main-inicio {
+        h2 {
+            background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), red, rgb(228, 115, 22), red, );
         }
-        
-        td{
-        font-size: 16px;
-        p{
-            padding-top: 0px;
-        }
-        }
-    .whatsapp-flotante{
-display: none;
     }
 
-    .whatsap-mobil{
+    .h2-galeria {
+        left: auto;
+    }
+
+    .fondo-h2 {
+        left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .h2-galeria {
+        font-size: 30px;
+    }
+
+    form {
+        width: 50%;
+        margin: 25px;
+        left: 25%;
+        top: 10%;
+
+    }
+
+    .link-ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    th {
+        font-size: 18px;
+    }
+
+    td {
+        font-size: 16px;
+
+        p {
+            padding-top: 0px;
+        }
+    }
+
+    .whatsapp-flotante {
+        display: none;
+    }
+
+    .whatsap-mobil {
         display: inline-block;
     }
-    form{
+
+    form {
         width: 80%;
         position: relative;
         left: 5%;
     }
-    
-    .capa-texto{
+
+    .capa-texto {
         display: none;
     }
 
-    .dropdown{
+    .dropdown {
         display: inline-block;
-        
+
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         width: 500px;
         height: 545px;
         text-align: center;
@@ -52,34 +85,42 @@ display: none;
         transition: all 300ms ease-out;
         opacity: 1;
     }
-    .dropdown-item{
+
+    .dropdown-item {
         color: white;
         font-size: 20px;
     }
-    .dropdown-toggle{
+
+    .dropdown-toggle {
         width: 500px;
         font-size: 20px;
         font-weight: bold;
         font-style: italic;
-        background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+        background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
     }
-    #dropdownMenuButton1{
+
+    #dropdownMenuButton1 {
         color: blue;
     }
 }
 
-@media  screen and (max-width: 425px) {
-    .titulo{
+
+
+@media screen and (max-width: 425px) {
+    .titulo {
         font-size: 35px;
     }
-    th{
+
+    th {
         font-size: 20px;
-        }
-        td{
-            font-size: 16px;
-        }
-   .precio-tabla{
-    padding-top: 20px;
-   }
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    .precio-tabla {
+        padding-top: 20px;
+    }
 
 }

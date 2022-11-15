@@ -1,0 +1,28 @@
+.h2-galeria {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    border-top: ridge 1rem #A4D6BB;
+    border-left: ridge 1rem #EFDDB1;
+    border-right: ridge 1rem #E29DAB;
+    border-bottom: ridge 1rem #7EBDCA;
+    max-width: 1000px;
+    position: relative;
+    font-style: italic;
+    color: transparent;
+    background-image: linear-gradient(to right, red, orange, rgb(214, 67, 202), rgb(76, 207, 230), red);
+    -webkit-background-clip: text;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.fondo-h2 {
+    background-color: #ECCCCF;
+    max-width: 1000px;
+    left: 500px;
+    position: relative;
+    border-radius: 15px;
+
+
+}

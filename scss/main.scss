@@ -4,16 +4,19 @@
 @import "precio";
 @import "contacto";
 @import "mediaqueries";
-html{
+
+html {
     height: 100%;
 }
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif
 }
-body{
+
+body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -25,6 +28,3 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
-
-

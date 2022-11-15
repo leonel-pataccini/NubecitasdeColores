@@ -7,8 +7,11 @@
   width: 100%;
   box-sizing: content-box;
   z-index: 2000;
-  justify-content: space-between;
-  align-self: center;
+}
+
+.link-ul {
+  display: flex;
+  justify-content: end;
 }
 
 .titulo {
@@ -311,6 +314,32 @@ footer p {
   transition: all 500ms ease-out;
 }
 
+.h2-galeria {
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 15px;
+  border-top: ridge 1rem #A4D6BB;
+  border-left: ridge 1rem #EFDDB1;
+  border-right: ridge 1rem #E29DAB;
+  border-bottom: ridge 1rem #7EBDCA;
+  max-width: 1000px;
+  position: relative;
+  font-style: italic;
+  color: transparent;
+  background-image: linear-gradient(to right, red, orange, rgb(214, 67, 202), rgb(76, 207, 230), red);
+  -webkit-background-clip: text;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.fondo-h2 {
+  background-color: #ECCCCF;
+  max-width: 1000px;
+  left: 500px;
+  position: relative;
+  border-radius: 15px;
+}
+
 th {
   font-size: 21px;
 }
@@ -327,10 +356,10 @@ form {
   width: 50%;
   border: 1rem groove #11827A;
   border-radius: 25px;
-  margin: 20px;
+  margin: 110px;
   padding: 20px;
   position: relative;
-  left: 25%;
+  left: 20%;
   top: 10%;
   background-image: radial-gradient(#11827A, 30%, #B3DDE4);
 }
@@ -340,7 +369,8 @@ label {
   display: block;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 20px;
   width: 100%;
   padding: 10px;
@@ -368,6 +398,10 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+.h2-contacto {
+  padding-top: 20px;
+}
+
 /* Elementos ocultos en desktop */
 .whatsap-mobil {
   display: none;
@@ -381,8 +415,27 @@ input[type=submit]:hover {
   .main-inicio h2 {
     background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), red, rgb(228, 115, 22), red);
   }
+  .h2-galeria {
+    left: auto;
+  }
+  .fondo-h2 {
+    left: auto;
+  }
 }
 @media screen and (max-width: 768px) {
+  .h2-galeria {
+    font-size: 30px;
+  }
+  form {
+    width: 50%;
+    margin: 25px;
+    left: 25%;
+    top: 10%;
+  }
+  .link-ul {
+    display: flex;
+    justify-content: flex-start;
+  }
   th {
     font-size: 18px;
   }

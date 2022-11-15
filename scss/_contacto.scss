@@ -1,51 +1,55 @@
-
-form{
+form {
     width: 50%;
-    border:1rem groove #11827A;
+    border: 1rem groove #11827A;
     border-radius: 25px;
-    margin: 20px;
+    margin: 110px;
     padding: 20px;
     position: relative;
-    left: 25%;
+    left: 20%;
     top: 10%;
-    background-image: radial-gradient(#11827A,30%,#B3DDE4);
+    background-image: radial-gradient(#11827A, 30%, #B3DDE4);
 }
 
-label{
+label {
     font-size: 18px;
     display: block;
 }
 
-input,textarea{
+input,
+textarea {
     margin-bottom: 20px;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    
+
 }
 
-textarea{
-    resize:vertical;
-    max-height:300px;
+textarea {
+    resize: vertical;
+    max-height: 300px;
     min-height: 100px;
 }
 
-input{
-    textarea{
-    &:focus{
-    border: 1px solid blue;
+input {
+    textarea {
+        &:focus {
+            border: 1px solid blue;
+        }
     }
 }
-}
 
-input[type=submit]{
+input[type=submit] {
     margin-bottom: 0;
     background-color: #1668c4;
-    color:black;
+    color: black;
     border: none;
-    &:hover{
-        background:#4a88f4 ;
+
+    &:hover {
+        background: #4a88f4;
         cursor: pointer;
     }
 }
 
+.h2-contacto {
+    padding-top: 20px;
+}

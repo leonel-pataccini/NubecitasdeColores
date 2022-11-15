@@ -1,4 +1,4 @@
-.imagenes-productos-flex{
+.imagenes-productos-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,20 +6,23 @@
     padding: 5%;
 }
 
-.contenedor-powpatrol{
+.contenedor-powpatrol {
     max-width: 600px;
     right: 50px;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
         border-radius: 6px;
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
+
             &:hover {
                 transition: all 500ms ease-out;
             }
@@ -27,7 +30,7 @@
     }
 }
 
-.capa-texto{
+.capa-texto {
     position: absolute;
     top: 0;
     width: 100%;
@@ -36,21 +39,25 @@
     transition: all 500ms ease-out;
     opacity: 0;
     color: white;
-    h3{
+
+    h3 {
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
         font-size: 30px;
-        }
-    ol{
+    }
+
+    ol {
         display: block;
         margin: 15px;
     }
-    ul{
+
+    ul {
         text-align: center;
         position: relative;
         right: 30px;
     }
+
     &:hover {
         opacity: 1;
 
@@ -59,9 +66,10 @@
 
 /* CONTENEDOR ANIMALITOS NORDICOS */
 
-.contenedor-animalitosnordicosfem{
+.contenedor-animalitosnordicosfem {
     max-width: 500px;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -69,15 +77,15 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-        
-        &:hover{
-            transition: all 500ms ease-out;
-        }
+
+            &:hover {
+                transition: all 500ms ease-out;
+            }
         }
 
     }
@@ -86,9 +94,10 @@
 /* Contenedor Construccion */
 
 
-.contenedor-construccion{
+.contenedor-construccion {
     max-width: 500px;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -96,11 +105,13 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-            &hover{
+
+            &hover {
                 transition: all 500ms ease-out;
             }
         }
@@ -109,10 +120,11 @@
 
 /* Contenedor Animalitos de la granja */
 
-.contenedor-granjazenon{
+.contenedor-granjazenon {
     max-width: 500px;
     padding-top: 2%;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -120,11 +132,13 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-            &hover{
+
+            &hover {
                 transition: all 500ms ease-out;
             }
         }
@@ -133,10 +147,11 @@
 
 /* Contenedor Minnie */
 
-.contenedor-minnie{
+.contenedor-minnie {
     max-width: 500px;
     padding-top: 2%;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -144,11 +159,13 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-            &hover{
+
+            &hover {
                 transition: all 500ms ease-out;
             }
         }
@@ -157,10 +174,11 @@
 
 /* Contenedor Stich */
 
-.contenedor-stich{
+.contenedor-stich {
     max-width: 500px;
     padding-top: 2%;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -168,11 +186,13 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-            &hover{
+
+            &hover {
                 transition: all 500ms ease-out;
             }
         }
@@ -181,10 +201,11 @@
 
 /* Contenedor AninmalitosNordicos */
 
-.contenedor-animalitosnordicos{
+.contenedor-animalitosnordicos {
     max-width: 500px;
     padding-top: 2%;
-    figure{
+
+    figure {
         position: relative;
         max-width: 500px;
 
@@ -192,19 +213,15 @@
         box-shadow: 0px 15px 25px;
         cursor: pointer;
         overflow: hidden;
-        img{
+
+        img {
             max-width: 100%;
             max-height: 100%;
             transition: all 500ms ease-out;
-            &hover{
+
+            &hover {
                 transition: all 500ms ease-out;
             }
         }
     }
 }
-
-
-
-
-
-

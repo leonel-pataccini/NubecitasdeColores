@@ -1,44 +1,46 @@
-
-.header{
+.header {
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
-    position: sticky ;
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF, #98D3AA, #ECC7AD, #C2C1D8);
+    position: sticky;
     height: 100%;
     width: 100%;
     box-sizing: content-box;
     z-index: 2000;
-    justify-content: space-between;
-    align-self: center;
 }
 
-.titulo{
+.link-ul {
+    display: flex;
+    justify-content: end;
+}
+
+.titulo {
 
     font-size: 50px;
     font-family: 'Pacifico', 'cursive';
     color: transparent;
-    background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
+    background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
     -webkit-background-clip: text;
-    }
+}
 
-    .menuli{
-        padding: 15px;
-        font-weight: bold;
-        font-size: 26px;
-        list-style-type: none;
-    }
-    
-    .linkmenu{
-        text-decoration: none;
-        color: transparent;
-        background-image: linear-gradient(to right,red, rgb(214, 67, 202),rgb(76, 207, 230),rgb(228, 115, 22),red);
-        -webkit-background-clip: text;
-        font-family: 'Pacifico', 'cursive';
-        
-    }
+.menuli {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 26px;
+    list-style-type: none;
+}
+
+.linkmenu {
+    text-decoration: none;
+    color: transparent;
+    background-image: linear-gradient(to right, red, rgb(214, 67, 202), rgb(76, 207, 230), rgb(228, 115, 22), red);
+    -webkit-background-clip: text;
+    font-family: 'Pacifico', 'cursive';
+
+}
 
 
-.main-inicio{
+.main-inicio {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,23 +49,26 @@
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    h2{
+
+    h2 {
         text-align: center;
         padding-bottom: 30px;
-        font-weight: bold ;
+        font-weight: bold;
         font-size: 40px;
         padding-top: 30px;
         font-style: italic;
         color: transparent;
-        background-image: linear-gradient(to right,red,orange,rgb(214, 67, 202),rgb(76, 207, 230),red);
+        background-image: linear-gradient(to right, red, orange, rgb(214, 67, 202), rgb(76, 207, 230), red);
         -webkit-background-clip: text;
     }
-    p{
+
+    p {
         font-weight: bold;
         font-size: 20px;
         font-style: italic;
     }
-    main{
+
+    main {
         background-color: #ECCCCF;
         margin-top: 30px;
         border-radius: 15px;
@@ -71,45 +76,45 @@
         border-left: ridge 1rem #EFDDB1;
         border-right: ridge 1rem #E29DAB;
         border-bottom: ridge 1rem #7EBDCA;
-        
+
     }
 }
 
-.aside-inicio{
+.aside-inicio {
     font-weight: bold;
     font-size: 20px;
     font-style: italic;
     margin-top: 30px;
     background-color: #CFF4FC;
     border-radius: 15px;
-    border-top: ridge 1rem  #E29DAB;
+    border-top: ridge 1rem #E29DAB;
     border-left: ridge 1rem #EFDDB1;
     border-right: ridge 1rem #A4D6BB;
     border-bottom: ridge 1rem #7EBDCA;
-    
 
-    h2{
+
+    h2 {
         text-align: center;
         padding-bottom: 5px;
         font-weight: bold;
     }
 }
 
-.centrar-imagen{
+.centrar-imagen {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imagen-aside{
+.imagen-aside {
     max-width: 600px;
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0px 30px 25px;
 }
 
-footer{
-    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF,#98D3AA,#ECC7AD,#C2C1D8);
+footer {
+    background-image: linear-gradient(to right, #E9AAB2, #C8E1EF, #98D3AA, #ECC7AD, #C2C1D8);
     margin-top: auto;
     height: 100%;
     width: 100%;
@@ -117,16 +122,16 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    p{
+
+    p {
         color: #405457;
     }
 }
 
-.whatsapp-flotante{
+.whatsapp-flotante {
     position: fixed;
     z-index: 1000;
     width: 50px;
-    top:93%;
+    top: 93%;
     left: 96%;
 }
-
